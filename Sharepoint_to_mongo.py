@@ -25,7 +25,7 @@ FILE_URL = '/sites/I2D-Team/Shared%20Documents/DSG/4.%20Delivery/Client%20Delive
 SHAREPOINT_USER = 'rishabh.radhakrishnan@ameexusa.com'
 
 """ Input Generated App-Password"""
-SHAREPOINT_PASSWORD = 'fpdcgbjprdntfdfj'
+SHAREPOINT_PASSWORD = 'fpdcgbjprdntfdfk'
 
 s = sharepy.connect(URL, username=SHAREPOINT_USER, password=SHAREPOINT_PASSWORD)
 r = s.get(URL+FILE_URL)
